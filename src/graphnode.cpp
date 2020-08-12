@@ -8,13 +8,13 @@ GraphNode::GraphNode(int id)
 
 GraphNode::~GraphNode()
 {
-    //// STUDENT CODE
-    ////
+  //// STUDENT CODE
+  ////
+  //_chatBot is been deleted as part of chatlogic destructor
+  // delete _chatBot;
 
-    delete _chatBot; 
-
-    ////
-    //// EOF STUDENT CODE
+  ////
+  //// EOF STUDENT CODE
 }
 
 void GraphNode::AddToken(std::string token)
